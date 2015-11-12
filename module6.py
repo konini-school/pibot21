@@ -9,7 +9,7 @@
 import RPi.GPIO as GPIO
 import time
 
-print 'Programming the PiBot...'
+print 'Programming the PiBot at Konini School...'
 
 GPIO.setmode(GPIO.BOARD)
 
