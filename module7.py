@@ -54,7 +54,7 @@ left(0.5)
 forward(2)
 left(0.5)
 right(0.5)
-forward(3)
+forward(1)
 left(0.5)
 forward(3)
 
