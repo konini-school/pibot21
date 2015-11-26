@@ -48,9 +48,14 @@ def right(interval):
 
 # Main instructions here      
 forward(2)
-right(2)
-left(2)
-back(2)
+right(1/2)
+left(1/2)
+foraward(4)
+left(1/2)
+right(1/2)
+forward(3)
+left(1/2)
+forward(3)
 
 GPIO.cleanup()
    
