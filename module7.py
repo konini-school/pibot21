@@ -49,7 +49,7 @@ def right(interval):
 # Main instructions here      
 forward(1)
 right(0.5)
-forward(0.5)
+forward(1)
 left(0.5)
 forward(4)
 left(0.5)
