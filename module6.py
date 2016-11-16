@@ -20,7 +20,7 @@ GPIO.setup(15, GPIO.OUT)
 
 interval = 1
 
-print 'forward'
+print 'forward :)'
 GPIO.output(11, True)
 GPIO.output(13, True)
 time.sleep(interval)
