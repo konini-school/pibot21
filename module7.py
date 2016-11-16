@@ -72,6 +72,10 @@ back(0.5)
 forward(0.5)
 back(0.5)
 forward(0.5)
+print 'DONUTZZ!!!!'
+right(4)
+left(4)
+
 
 GPIO.cleanup()
    
