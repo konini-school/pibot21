@@ -55,6 +55,12 @@ right(1)
 left(1)
 right(1)
 left(1)
+back(0.5)
+forward(0.5)
+back(0.5)
+forward(0.5)
+back(0.5)
+forward(0.5)
 
 GPIO.cleanup()
    
