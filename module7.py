@@ -76,7 +76,27 @@ forward(0.5)
 print 'DONUTZZ!!!!'
 right(4)
 left(4)
-
+print 'shake!'
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
+forward(0.1)
+back(0.1)
 
 GPIO.cleanup()
    
