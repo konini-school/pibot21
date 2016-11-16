@@ -51,6 +51,7 @@ forward(2)
 right(4)
 left(2)
 back(2)
+print 'breakdance!!!'
 right(0.4)
 left(0.4)
 right(0.4)
