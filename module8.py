@@ -10,7 +10,7 @@ import RPi.GPIO as GPIO
 import time
 import sys, tty, termios
 
-print '\nHi, I am PiBot, your very own learning robot.'
+print '\nHi, I am PiBot, your very own learning robot. I am supa SWAG!'
 print 'My controls are "w"=forward; "s"=reverse; "a"=left; "d"=right and "q"=quit.'
 print 'I hope you have lots of fun...'
 
