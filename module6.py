@@ -39,7 +39,7 @@ GPIO.output(13, True)
 time.sleep(interval)
 GPIO.output(13, False)
       
-print 'right'
+print 'right-y-ho!'
 GPIO.output(11, True)
 time.sleep(interval)
 GPIO.output(11, False)
