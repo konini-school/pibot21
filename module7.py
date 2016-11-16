@@ -48,7 +48,7 @@ def right(interval):
 
 # Main instructions here      
 forward(2)
-right(12)
+right(6)
 left(2)
 back(2)
 right(1)
