@@ -47,6 +47,7 @@ def right(interval):
       GPIO.output(11, False)
 
 # Main instructions here      
+print 'introducing BOB, the dancing robot!!!!'
 forward(2)
 right(4)
 left(2)
