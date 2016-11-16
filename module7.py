@@ -35,13 +35,13 @@ def back(interval):
       GPIO.output(15, False)
 
 def left(interval):
-      print 'left'
+      print 'right'
       GPIO.output(13, True)
       time.sleep(interval)
       GPIO.output(13, False)
       
 def right(interval):
-      print 'right :)'
+      print 'left :)'
       GPIO.output(11, True)
       time.sleep(interval)
       GPIO.output(11, False)
