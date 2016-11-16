@@ -41,7 +41,7 @@ def left(interval):
       GPIO.output(13, False)
       
 def right(interval):
-      print 'right'
+      print 'right :)'
       GPIO.output(11, True)
       time.sleep(interval)
       GPIO.output(11, False)
