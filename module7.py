@@ -50,7 +50,7 @@ def right(interval):
       GPIO.output(11, False)
 
 # Main instructions here      
-print 'introducin
+print 'introduction'
  forward (2.0)
       left (1.0)
       right (1.0)
