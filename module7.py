@@ -40,6 +40,9 @@ def left(interval):
       time.sleep(interval)
       GPIO.output(13, False)
       
+      
+     
+      
 def right(interval):
       print 'left :)'
       GPIO.output(11, True)
@@ -47,56 +50,18 @@ def right(interval):
       GPIO.output(11, False)
 
 # Main instructions here      
-print 'introducing BOB, the dancing robot!!!!'
-forward(2)
-right(4)
-left(2)
-back(2)
-print 'breakdance!!!'
-right(0.4)
-left(0.4)
-right(0.4)
-left(0.4)
-back(0.5)
-forward(0.5)
-back(0.5)
-forward(0.5)
-back(0.5)
-forward(0.5)
-right(0.4)
-left(0.4)
-right(0.4)
-left(0.4)
-back(0.5)
-forward(0.5)
-back(0.5)
-forward(0.5)
-back(0.5)
-forward(0.5)
-print 'DONUTZZ!!!!'
-right(4)
-left(4)
-print 'shake!'
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
-forward(0.1)
-back(0.1)
+print 'introducin
+ forward (2.0)
+      left (1.0)
+      right (1.0)
+      forward (2.0)
+      right (1.0)
+      left (1.0)
+      forward (5.0)
+      left (1.0)
+      forward (1.0)
+      right (1.0)
+      forward (5.0)
 
 GPIO.cleanup()
    
