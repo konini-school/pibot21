@@ -51,17 +51,17 @@ def right(interval):
 
 # Main instructions here      
 print 'introduction'
-forward (2)
-left (1)
+back (2)
 right (1)
-forward (2)
-right (1.0)
+left (1)
+back (2)
 left (1.0)
-forward (5.0)
-left (1.0)
-forward (1.0)
 right (1.0)
-forward (5.0)
+back (5.0)
+right (1.0)
+back (1.0)
+left (1.0)
+back (5.0)
 
 GPIO.cleanup()
    
