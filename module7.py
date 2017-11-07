@@ -50,8 +50,10 @@ def right(interval):
       GPIO.output(11, False)
 
 # Main instructions here      
-print 'introduction'
-forward (19)
+forward(10)
+right(10)
+left(10)
+back(10)
 
 
 GPIO.cleanup()
