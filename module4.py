@@ -24,17 +24,17 @@ try:
 
     print 'Turn on red light\n'
     GPIO.output(11, True)
-    time.sleep(2)
+    time.sleep(4)
     GPIO.output(11, False)
     
     print 'Turn on orange light\n'    
     GPIO.output(13, True)
-    time.sleep(2)
+    time.sleep(4)
     GPIO.output(13, False)
     
     print 'Turn on green light\n'    
     GPIO.output(15, True)
-    time.sleep(2)
+    time.sleep(4)
     GPIO.output(15, False)
 
 # If CTRL+C is pressed the main loop is broken
